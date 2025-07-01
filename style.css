@@ -1,159 +1,101 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
 }
-/*
-body {
-  background-color: black;
-}
-main {
-  background-color: hsl(47, 88%, 63%);
-  width: fit-content;
-  height: 100vh;
-  padding: 100px;
-  padding-left: 200px;
-  padding-right: 200px; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  justify-content: center;
-  text-align: center;
+
+/* MAX-WIDTH :375PX */
+@media (max-width: 375px) {
+  body {
+    background-color: black;
+  }
+
+  article {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 95px 20px;
+    height: 100vh;
+    height: fit-content;
+  }
+
+  .Page-container {
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+  }
 }
 
-.div {
-  background-color: hsl(0, 0%, 100%);
-  width: fit-content;
-  margin: 10rem;
-}
-*/
-/* body {
-  text-align: center;
-} */
-/* 
-* main {
-  padding: 150px;
-  width: fit-content;
-} */
-/* 
-article {
-  width: fit-content;
-  max-height: 100%;
-  margin: 4rem;
-} */
+/* MIN-WIDTH:376PX */
+@media (min-width: 376px) {
+  article {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    padding-top: 100px;
+  }
 
-/* main {
-  padding: 50px;
-  width: max-content;
-   height: 40rem; 
-   height: max-content; 
-   height: 40rem; 
-  margin-left: auto;
-  margin-right: auto;
+  .Page-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+  }
 }
 
-article {
-   padding: 50px; 
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  margin-top: 3rem;
-   width: 25rem;
-  height: 37rem;
-  border-radius: 15px; 
-}
-
-.image img {
-  width: 50%;
+.image {
+  width: 17rem;
+  height: auto;
   border-radius: 15px;
 }
 
-.userImage {
-  width: 5rem;
-  height: 4rem;
-  border-radius: 50%;
-  height: 100vh;
-} */
-
-main {
-  background-color: hsl(47, 88%, 63%);
-  text-align: center;
-  text-align: center;
-  padding: 50px;
+.text-details {
+  margin-top: 10px;
   width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.div {
-  background-color: hsl(0, 0%, 100%);
-  width: fit-content;
-  width: 25rem;
-  height: 37rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  margin-top: 5rem;
-  border-radius: 15px;
-}
-
-.image img {
-  width: 24rem;
-  border-radius: 15px;
-}
-
-.text {
-  text-align: left;
-  width: 24rem;
-  padding: 9px;
 }
 
 h3 {
   background-color: hsl(47, 88%, 63%);
   width: fit-content;
-  padding: 8px;
-  border-radius: 4px;
-  margin-top: 10px;
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: small;
 }
+
 .Published {
-  font-weight: 600;
-  font-size: larger;
-  width: fit-content;
-  margin-top: 12px;
+  margin: 15px 0;
+  font-size: small;
 }
 
 h1 {
-  margin-top: 18px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
+
 .details {
   opacity: 0.7;
-  margin-top: 20px;
-  font-size: larger;
+  display: inline-block;
+  margin-bottom: 32px;
+  width: fit-content;
 }
+
 .userdetails {
-  margin-top: 30px;
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 15px;
 }
 
 .userImage {
-  width: 5rem;
-  height: 4rem;
   border-radius: 50%;
 }
 
-h4 {
-  font-weight: 800;
-  font-size: large;
-  margin-top: 20px;
-}
-
 footer {
-  font-weight: 700;
-  font-size: larger;
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
 }

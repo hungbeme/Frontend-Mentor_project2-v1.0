@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
-    <!-- <link
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
-    /> -->
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Blog preview card</title>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,53 +17,54 @@
 
   <body>
     <main>
-      <div class="div">
-        <!-- IMAGE CONTAINER -->
-        <div>
+      <article>
+        <div class="Page-container">
           <img
             src="./assets/images/illustration-article.svg"
             alt="image"
             class="image"
           />
+
+          <!-- TEXT - DE -->
+          <div class="text-details">
+            <h3>Learning</h3>
+            <p class="Published">Published 8 june 2025</p>
+
+            <h1>HTML & CSS foundations</h1>
+
+            <small class="details">
+              These languages are the backbone of every <br />
+              website, defining structure,content,and <br />
+              presentation.
+            </small>
+          </div>
+
+          <div class="userdetails">
+            <img
+              src="./assets/images/my pic crop.jpg"
+              alt="userImage"
+              width="50px"
+              height="50px"
+              class="userImage"
+            />
+            <h4>Hungbeme Taiwo</h4>
+          </div>
         </div>
 
-        <!-- TEXT CONTAINER -->
-        <aside class="text">
-          <h3>Learning</h3>
-          <p class="Published">Published 8 june 2025</p>
-
-          <h1>HTML & CSS foundations</h1>
-
-          <p class="details">
-            These languages are the backbone of every website, defining
-            structure,content, and presentation.
-          </p>
-        </aside>
-
-        <!-- USER DETAILS. -->
-        <div class="userdetails">
-          <img
-            src="./assets/images/my pic crop.jpg"
-            alt="userImage"
-            width="50px"
-            height="50px"
-            class="userImage"
-          />
-          <h4>Hungbeme Taiwo</h4>
-        </div>
-      </d>
-
-      <footer>
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a href="https://www.linkedin.com/in/taiwo-hungbeme-b5587b320"
-            >Hungbeme Taiwo Samuel</a
-          >.
-        </div>
-      </footer>
+        <footer>
+          <div class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://www.linkedin.com/in/taiwo-hungbeme-b5587b320"
+              >Hungbeme Taiwo Samuel</a
+            >.
+          </div>
+        </footer>
+      </article>
     </main>
   </body>
 </html>
