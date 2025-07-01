@@ -27,6 +27,10 @@
     padding: 15px;
     border-radius: 15px;
   }
+
+  footer {
+    font-size: small;
+  }
 }
 
 /* MIN-WIDTH:376PX */
